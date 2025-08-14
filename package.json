@@ -1,0 +1,19 @@
+{
+  "name": "ftx_test_suite",
+  "version": "1.0.0",
+  "description": "Appium Testing Suite for Android Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jon.e@goftx.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "publishConfig": {
+    "registry": "http://reject.goftx.com/"
+  },
+  "dependencies": {
+    "appium-flutter-finder": "^0.2.0",
+    "webdriverio": "^9.19.1"
+  }
+}
